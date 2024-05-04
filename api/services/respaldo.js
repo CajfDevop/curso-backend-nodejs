@@ -45,7 +45,7 @@ module.exports = ProductsService;
 
 
 const express = require('express');
-const ProductsService = require('../services/products.service');
+const ProductsService = require('./products.service');
 
 const router = express.Router();
 
